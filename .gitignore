@@ -1,0 +1,181 @@
+# Ignore everything
+/*
+/*/*
+/*/*/*
+/*/*/[Bb]in/*
+/*/*.xml
+*.log
+*.xref
+*.cache
+!.github
+# User-specific files
+*.suo
+*.user
+ReSharper*
+objd
+pkg
+/schemas/
+out/
+target/
+tmp/
+.vs
+App_Data
+*.user
+*.sln.cache
+*.exe
+TestResults
+[Tt]humbs.db
+buildd.*
+build.(err|log|wrn|trc|prf|evt|dbb)
+*.bak
+OACRTemp/
+build_logs/
+lock
+/public/inc/bldver.*
+/public/inc/sources.ver
+/Symbols
+/drop
+/.corext/.pkg/
+/.corext/gen/
+/.corext/cache
+versionsmk.inc
+Logs
+
+!readme.md
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+/Projects/**/[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio 2015 cache/options directory
+.vs/
+# Uncomment if you have tasks that create the project's static files in wwwroot
+#wwwroot/
+
+#github workflow
+.github/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# TFS 2012 Local Workspace
+$tf/
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+# NuGet v3's project.json files produces more ignorable files
+*.nuget.props
+*.nuget.targets
+
+# Weird MSBuild output folders
+[0-9]
+
+# msbuild logs
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# bad tlb/chm generators in nmake tree
+*.tlb
+*.chm
+# The following file is a part of the sdk and must be an exception to the above rule, meaning it will be included.
+!CommerceRuntimeMessages.chm
+
+# dumb silverlight
+ClientBin/
+
+# dumb azure
+*.build.csdef
+csx/
+
+# Generated C# files
+*.g.cs
+!src/SampleExtensions/ShoppingApp/**/*.g.cs
+*.projhash
+*.projhash.userData
+*.projhash.userData.assemblies
+*.slnhash
+*.slnhash.userData
+*.slnhash.userData.assemblies
+
+# Ignore other generated file types, too
+*.g.ts
+*.g.xml
+
+# StyleCop
+StyleCop.Cache
+
+# Configs and transient build assets
+.config/.inc/bldver.cpp
+.config/.inc/bldver.cs
+.config/.inc/bldver.h
+.config/.inc/bldver.vb
+.config/.inc/sources.ver
+.config/.inc/version.htm
+.config/.inc/version.sql
+.config/.inc/version.json
+.config/.inc/version.txt
+.gen/
+build/.gen_oacr/
+build/oacr_exclude.ini
+*.tslint
+*.d.ts
+*.map
+*.generated
+*.rsp
+*.js
+/src/OnlineStore/Ecommerce.Sdk.Controls/Common/Scripts.js
+
+# Build and development artifiacts
+/VersionGeneration
+tslint.out
+TypeScripttslintFileListArgs.txt
+/.config/dev.packages.props
+/src/Provisioning/ProvisioningDatabase/ProvisioningDatabase.refactorlog
+.packages
+phantomjs-license.txt
+
+# POS Build Artifacts
+AppPackages/
+bld/
+schemas/
+dist/
+devDependencies/
+
+# Certificate files
+*.pfx
+
+# Nuget package cache
+/src/References
+/ComponentScenarios/Pos/Dependencies/
+
+# Nuget package creation temps
+/nu/t
+
+# But descend into directories
+!.gitignore
+!.github
+!.github/*
+!.github/workflows/*
+!.FSC-PS
+!.FSC-PS/*
+*.testlog
+*.manifest
+
+#system tests
+!/tests/pom.xml
